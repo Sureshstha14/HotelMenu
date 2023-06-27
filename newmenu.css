@@ -1,0 +1,76 @@
+body{
+    height: 100vh;
+    opacity: 0.9;
+}
+header{
+    height: 20vh;
+    margin-top: 40px;
+}
+.menu{
+    height: 4vh;
+    text-align: center;
+}
+.underline{
+    width: 70px;
+    height: 10px;
+    border-bottom: 5px solid orange;
+    transform: translateX(50%);
+    margin-left: 44%;
+}
+.button{
+    width: 30%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  margin-top: 30px;
+  transform: translateX(90%);
+}
+.btn{
+    color: rgb(235, 98, 7);
+    border: 2px solid rgb(235, 98, 7) ;
+}
+.btn:hover{
+    background-color: cadetblue;
+    border: 1px solid goldenrod;
+}
+.image{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid orange;
+}
+.container{
+    width: 100%;
+    margin-left: 100px;
+    display: flexbox;
+    justify-content: space-around;
+    padding: 20px;
+}
+.box1:nth-child(even){
+    transform: translateX(100%);
+    margin-top: -14%;
+}
+.box1{
+    width: 40%;
+    display: flex;
+    margin: 20px;
+}
+
+.item_price{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.item_price a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.content p{
+    width: 50%;
+    text-align: center;
+
+}
